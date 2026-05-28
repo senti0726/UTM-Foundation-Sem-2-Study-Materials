@@ -1,0 +1,44 @@
+/* ============================================================
+   EDITOR VIEW (Source Mode / Typing)
+   ============================================================ */
+
+/* 1. Remove Italics (Just in case) */
+.cm-quote, .cm-line.HyperMD-quote {
+    font-style: normal !important;
+}
+
+/* 2. Color the ">" symbols themselves */
+.cm-formatting-quote {
+    color: var(--text-muted) !important;
+    font-weight: 900 !important;
+}
+
+/* ============================================================
+   THE RAINBOW LINES (Background + Border)
+   We use !important to fight the Minimal Theme's default colors.
+   ============================================================ */
+
+/* LEVEL 1*/
+.cm-line.HyperMD-quote-1 {
+    background-color: rgba(235, 60, 60, 0.15) !important;
+}
+
+/* LEVEL 2*/
+.cm-line.HyperMD-quote-2 {
+    background-color: rgba(255,150,50, 0.15) !important;
+}
+
+/* LEVEL 3*/
+.cm-line.HyperMD-quote-3 {
+    background-color: rgba(255, 215, 60, 0.15) !important;
+}
+
+/* LEVEL 4*/
+.cm-line.HyperMD-quote-4 {
+    background-color: rgba(100, 220, 120, 0.15) !important;
+}
+
+/* LEVEL 5*/
+.cm-line.HyperMD-quote-5 {
+    background-color: rgba(60, 160, 255, 0.2) !important;
+}

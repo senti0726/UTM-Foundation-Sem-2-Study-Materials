@@ -1,0 +1,4 @@
+.callout[data-callout="tip"] {
+  --callout-color: 200, 85%, 60%; /* green */
+  --callout-icon: "lucide-flame"; 
+}

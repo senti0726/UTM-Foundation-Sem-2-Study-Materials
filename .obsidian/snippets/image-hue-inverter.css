@@ -1,0 +1,17 @@
+/* FORCE ALL IMAGES TO INVERT */
+.markdown-preview-view img, 
+.markdown-source-view img {
+    /* 1. Invert the brightness (White becomes Black) */
+    /* 2. Rotate Hue 180deg (So Blue stays Blue, instead of turning Orange) */
+    filter: invert(1) hue-rotate(180deg);
+    
+    /* Remove any white background if the image has transparency */
+    background-color: transparent !important;
+}
+
+/* EXCEPTION: Restore normal colors if you type |noinvert */
+/* Usage: ![[image.png|noinvert]] */
+.markdown-preview-view img[alt*="noinvert"], 
+.markdown-source-view img[alt*="noinvert"] {
+    filter: none !important;
+}

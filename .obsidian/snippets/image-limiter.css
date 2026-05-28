@@ -1,0 +1,16 @@
+/* Limit all images to 50% width or 500px height by default */
+.markdown-preview-view img:not([width]), 
+.markdown-source-view img:not([width]) {
+    max-width: 80%;       /* Takes up max 80% of the note width */
+    max-height: 200px;    /* Never taller than 500px */
+    width: auto;          /* Keeps aspect ratio */
+    object-fit: contain;
+    
+    /* Optional: Center the images */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* If you specifically type [[image.png|1000]], this CSS is ignored 
+   so you can still make big images if you really want to. */

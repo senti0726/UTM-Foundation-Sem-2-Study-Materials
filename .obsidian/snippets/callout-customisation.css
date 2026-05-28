@@ -1,0 +1,155 @@
+.callout[data-callout="because"] {
+  --callout-color: 200, 85, 60;  
+    --callout-icon: lucide-waypoints;
+}
+
+.callout[data-callout="equalt"] {
+  --callout-color: 200, 8, 6;  
+    --callout-icon: lucide-equal;
+}
+
+.callout[data-callout="transparent"] {
+  --callout-color: 200, 85%, 60%;  
+    --callout-icon: lucide-play;
+}
+
+.callout[data-callout="definition"] {
+  --callout-color: 255, 0, 0;    
+    --callout-icon: lucide-italic;
+  font-style: italic;
+}
+
+.callout[data-callout="name"] {
+  --callout-color: 255, 200, 150;   
+    --callout-icon: lucide-user-pen;
+}
+
+.callout[data-callout="liststart"] {
+  --callout-color: 200, 255, 255;   
+    --callout-icon: lucide-list-start;
+}
+
+.callout[data-callout="continue"] {
+  --callout-color: 255, 250, 240;
+  --callout-icon: "lucide-workflow";  
+}
+
+.callout[data-callout="formula"] {
+  --callout-color: 255, 70, 30; 
+  --callout-icon: "lucide-sigma";  
+}
+
+.callout[data-callout="unit"] {
+  --callout-color: 255, 140, 60; 
+  --callout-icon: "lucide-ruler";  
+}
+
+.callout[data-callout="mnemonic"] {
+  --callout-color: 255, 220, 80; 
+  --callout-icon: "lucide-brain";  
+}
+
+.callout[data-callout="mnemonic-points"] {
+  --callout-color: 255, 80, 220; 
+  --callout-icon: "lucide-brain-circuit";  
+}
+
+.callout[data-callout="procedure"] {
+  --callout-color: 60, 220, 200;
+  --callout-icon: "lucide-scroll-text";
+}
+
+.callout[data-callout="concepto"] {
+  --callout-color: 255, 255, 0; 
+  --callout-icon: "lucide-star"; 
+}
+
+.callout[data-callout="advantage"] {
+  --callout-color: 150, 255, 100;
+  --callout-icon: "lucide-thumbs-up"; 
+}
+
+.callout[data-callout="disadvantage"] {
+  --callout-color: 255, 50, 50;
+  --callout-icon: "lucide-thumbs-down"; 
+}
+
+.callout[data-callout="compare"] {
+  --callout-color: 160, 60, 180;
+  --callout-icon: "lucide-git-compare"; 
+}
+
+.callout[data-callout="timeline"] {
+  --callout-color: 150, 120, 200;
+  --callout-icon: "lucide-calendar-clock"; 
+}
+
+.callout[data-callout="landmark"] {
+  --callout-color: 160, 200, 220;
+  --callout-icon: "lucide-landmark"; 
+}
+
+.callout[data-callout="location"] {
+  --callout-color: 200, 85, 60;
+    --callout-icon: lucide-map-pin;
+}
+
+.callout[data-callout="picture"] {
+  --callout-color: 180, 210, 210;
+    --callout-icon: lucide-image;
+}
+
+.callout[data-callout="blank"] {
+  --callout-color: 210, 180, 210;
+    --callout-icon: lucide-whole-word;
+}
+
+.callout[data-callout="from"] {
+  --callout-color: 150,150,210;
+    --callout-icon: lucide-arrow-right-from-line;
+}
+
+.callout[data-callout="to"] {
+  --callout-color: 150,210,210;
+    --callout-icon: lucide-arrow-right-to-line;
+}
+
+.callout[data-callout="table"] {
+  --callout-color: 255,200,255;
+    --callout-icon: lucide-table;
+}
+
+.callout[data-callout="sq"] {
+  --callout-color: 240,240,240;
+    --callout-icon: lucide-pen-line;
+}
+
+.callout[data-callout="graph"] {
+  --callout-color: 155,255,230;
+    --callout-icon: lucide-chart-spline;
+}
+
+.callout[data-callout="structure"] {
+    --callout-color: 128,128,128;
+    --callout-icon: lucide-pyramid;
+    color: var(--text-normal) !important;
+}
+
+.callout[data-callout="structure"] .callout-title {
+    color: var(--text-normal) !important;
+}
+
+.callout[data-callout="process"] {
+    --callout-color: 0,128,0;
+    --callout-icon: lucide-git-commit-vertical;
+    color: var(--text-normal) !important;
+}
+
+.callout[data-callout="process"] .callout-title {
+    color: var(--text-normal) !important;
+}
+
+.callout[data-callout="code"] {
+  --callout-color: 150,150,150;
+    --callout-icon: lucide-code;
+}
